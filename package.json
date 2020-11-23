@@ -1,0 +1,29 @@
+{
+  "name": "car-parking-backend",
+  "version": "1.0.0",
+  "description": "Backend for car parking",
+  "main": "server.js",
+  "scripts": {
+    "start": "NODE_ENV=production npm start",
+    "dev": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hj2207/car-parking-backend.git"
+  },
+  "author": "Harshita",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hj2207/car-parking-backend/issues"
+  },
+  "homepage": "https://github.com/Hj2207/car-parking-backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.15",
+    "nodemon": "^2.0.6"
+  }
+}
